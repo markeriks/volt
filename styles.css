@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.separator {
+    border: none;
+    border-top: 1px solid #898989;
+    margin: 5px auto;
+    width: 80%;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    padding: 20px 30px 20px 20px;
+}
+
+.menu-item-inner {
+    width: 150px;
+
+}
+
+.item-name {
+    font-size: 16px;
+    margin: 0;
+}
+
+.ingredients {
+    font-size: 10px;
+    margin: 5px 0;
+}
+
+.price {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.menu-item-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+.add-menu-item {
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.add-menu-item:hover {
+    background-color: #ecebeb;
+}
+
+.cart {
+    min-height: 200px;
+}
+
+.cart-heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cart-inner {
+    background-color: #ffffff;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.cart-item-name {
+    font-weight: 500;
+}
+
+.cart-controls {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #ecebeb;
+    transition: 0.5s ease
+}
+
+.cart-controls:hover {
+    border: 1px solid #9f9f9f;
+}
+
+.cart-controls button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-total {
+    padding: 0 40px;
+}
+
+.order-btn {
+    display: block;
+    margin: 40px auto 50px auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #4166ce;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 40px;
+}
+
+#copyright {
+    text-align: center;
+    padding: 70px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+footer {
+    margin: 0 auto;
+    max-width: 600px;
+    background: linear-gradient(to bottom right, #4166ce, #1b306b);
+}
+
+.hidden {
+    display: none;
+}
+
+.card-details {
+    background-color: red;
+    box-sizing: border-box;
+    padding: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    width: 300px;
+}
