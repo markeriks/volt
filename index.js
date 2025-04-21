@@ -28,7 +28,7 @@ function renderMenuItems() {
                 <p class="price">${price}€</p>
             </div>
             <button class="add-menu-item" data-add="${id}">
-                <i class="fa-solid fa-plus" data-add="${id}"></i>
+                <i class="add-menu-icon fa-solid fa-plus" data-add="${id}"></i>
             </button>
         </div>
         <hr class="separator">`
